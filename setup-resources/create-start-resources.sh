@@ -30,7 +30,7 @@ USER_NAME=${USER_NAME%%@*}
 printf "User name: $USER_NAME\n"
 
 # Get the default subscription if not provided as a parameter
-SUBSCRIPTION_NAME=$1
+SUBSCRIPTION_NAME='Concierge Subscription
 # Set default subscription
 az configure --defaults subscription="$SUBSCRIPTION_NAME"
 printf "Using subscription: ""$SUBSCRIPTION_NAME""\n"
